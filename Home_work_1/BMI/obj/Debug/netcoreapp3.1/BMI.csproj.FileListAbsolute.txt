@@ -1,0 +1,13 @@
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.exe
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.deps.json
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.runtimeconfig.json
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.runtimeconfig.dev.json
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.dll
+D:\Projects\Home_work_1\BMI\bin\Debug\netcoreapp3.1\BMI.pdb
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.csprojAssemblyReference.cache
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.AssemblyInfoInputs.cache
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.AssemblyInfo.cs
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.csproj.CoreCompileInputs.cache
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.dll
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.pdb
+D:\Projects\Home_work_1\BMI\obj\Debug\netcoreapp3.1\BMI.genruntimeconfig.cache
