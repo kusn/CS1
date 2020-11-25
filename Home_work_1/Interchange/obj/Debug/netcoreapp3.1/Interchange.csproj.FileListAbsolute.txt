@@ -1,0 +1,13 @@
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.exe
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.deps.json
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.runtimeconfig.json
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.runtimeconfig.dev.json
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.dll
+D:\Projects\Home_work_1\Interchange\bin\Debug\netcoreapp3.1\Interchange.pdb
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.csprojAssemblyReference.cache
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.AssemblyInfoInputs.cache
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.AssemblyInfo.cs
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.csproj.CoreCompileInputs.cache
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.dll
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.pdb
+D:\Projects\Home_work_1\Interchange\obj\Debug\netcoreapp3.1\Interchange.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.exe
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.deps.json
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.runtimeconfig.json
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.runtimeconfig.dev.json
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.dll
+D:\Projects\Home_work_1\Anketa\bin\Debug\netcoreapp3.1\Anketa.pdb
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.csprojAssemblyReference.cache
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.AssemblyInfoInputs.cache
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.AssemblyInfo.cs
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.csproj.CoreCompileInputs.cache
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.dll
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.pdb
+D:\Projects\Home_work_1\Anketa\obj\Debug\netcoreapp3.1\Anketa.genruntimeconfig.cache

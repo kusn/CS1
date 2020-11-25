@@ -1,0 +1,13 @@
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.exe
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.deps.json
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.runtimeconfig.json
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.runtimeconfig.dev.json
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.dll
+D:\Projects\Home_work_1\Interval\bin\Debug\netcoreapp3.1\Interval.pdb
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.csprojAssemblyReference.cache
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.AssemblyInfoInputs.cache
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.AssemblyInfo.cs
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.csproj.CoreCompileInputs.cache
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.dll
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.pdb
+D:\Projects\Home_work_1\Interval\obj\Debug\netcoreapp3.1\Interval.genruntimeconfig.cache
