@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\obj\Debug\Minimum_of_three.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\obj\Debug\Minimum_of_three.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\bin\Debug\Minimum_of_three.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\bin\Debug\Minimum_of_three.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\bin\Debug\Minimum_of_three.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\obj\Debug\Minimum_of_three.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Minimum_of_three\obj\Debug\Minimum_of_three.pdb
