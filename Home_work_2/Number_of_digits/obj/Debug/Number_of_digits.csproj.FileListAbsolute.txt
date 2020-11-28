@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\bin\Debug\Number_of_digits.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\bin\Debug\Number_of_digits.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\bin\Debug\Number_of_digits.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\obj\Debug\Number_of_digits.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\obj\Debug\Number_of_digits.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\obj\Debug\Number_of_digits.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_digits\obj\Debug\Number_of_digits.pdb

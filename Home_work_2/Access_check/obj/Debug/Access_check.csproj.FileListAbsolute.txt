@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\bin\Debug\Access_check.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\bin\Debug\Access_check.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\bin\Debug\Access_check.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\obj\Debug\Access_check.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\obj\Debug\Access_check.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\obj\Debug\Access_check.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Access_check\obj\Debug\Access_check.pdb

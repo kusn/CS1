@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.pdb

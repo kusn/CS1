@@ -1,0 +1,7 @@
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\bin\Debug\Recursion_ from_A_to_B.exe.config
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\bin\Debug\Recursion_ from_A_to_B.exe
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\bin\Debug\Recursion_ from_A_to_B.pdb
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\obj\Debug\Recursion_ from_A_to_B.csprojAssemblyReference.cache
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\obj\Debug\Recursion_ from_A_to_B.csproj.CoreCompileInputs.cache
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\obj\Debug\Recursion_ from_A_to_B.exe
+D:\Учеба\CS1\CS1\Home_work_2\Recursion_ from_A_to_B\obj\Debug\Recursion_ from_A_to_B.pdb
