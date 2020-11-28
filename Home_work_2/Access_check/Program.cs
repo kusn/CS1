@@ -25,22 +25,29 @@ namespace Access_check
         {
             const string login_key = "root";
             const string pass_key = "GeekBrains";
+            bool check = false;
+            int i = 0;
 
             Console.WriteLine("АВТОРИЗУЙТЕСЬ");
-            int i = 0;
+
             do
             {
                 i++;
+                if (i > 3)
+                {
+                    Console.WriteLine("Вы исчерпали количество попыток. Программа будет завершена.");
+                    Environment.Exit(1);
+                }
+                Console.WriteLine("Попытка № " + i);
                 Console.Write("Введите логин: ");
                 string login_in = Console.ReadLine();
                 Console.Write("Введите пароль: ");
                 string pass_in = Console.ReadLine();
-                if (AccessCheck(login_key, pass_key, login_in, pass_in))
-                    break;
+                check = AccessCheck(login_key, pass_key, login_in, pass_in);                
             }
-            while(i < 3);
+            while (i < 4 && !check);
 
-            Console.WriteLine()
+            Console.WriteLine("Привет!");
         }
     }
 }

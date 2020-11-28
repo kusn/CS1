@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\obj\Debug\BMI.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\bin\Debug\BMI.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\bin\Debug\BMI.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\bin\Debug\BMI.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\obj\Debug\BMI.exe
+D:\Kudryashov\Учеба\CS1\Home_work_2\BMI\obj\Debug\BMI.pdb
