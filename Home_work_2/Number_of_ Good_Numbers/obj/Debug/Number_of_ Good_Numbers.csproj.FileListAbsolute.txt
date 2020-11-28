@@ -5,3 +5,10 @@ D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Numbe
 D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.csproj.CoreCompileInputs.cache
 D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.exe
 D:\Kudryashov\Учеба\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.pdb
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\bin\Debug\Number_of_ Good_Numbers.exe.config
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\bin\Debug\Number_of_ Good_Numbers.exe
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\bin\Debug\Number_of_ Good_Numbers.pdb
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.csprojAssemblyReference.cache
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.csproj.CoreCompileInputs.cache
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.exe
+D:\Учеба\CS1\CS1\Home_work_2\Number_of_ Good_Numbers\obj\Debug\Number_of_ Good_Numbers.pdb

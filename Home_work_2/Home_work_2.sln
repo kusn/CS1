@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum_of_three", "Minimum_of_three\Minimum_of_three.csproj", "{323B69F3-9FC2-405A-A25B-52B2BA7F4318}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{E94EA8FA-85E4-42C2-B59D-63597319FACD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_of_ Good_Numbers", "Number_of_ Good_Numbers\Number_of_ Good_Numbers.csproj", "{77156F08-DE76-4A86-9296-7C99714463AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion_ from_A_to_B", "Recursion_ from_A_to_B\Recursion_ from_A_to_B.csproj", "{BAFB930F-FCD9-4C3D-8775-BAFDCF782B72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{77156F08-DE76-4A86-9296-7C99714463AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77156F08-DE76-4A86-9296-7C99714463AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77156F08-DE76-4A86-9296-7C99714463AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFB930F-FCD9-4C3D-8775-BAFDCF782B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFB930F-FCD9-4C3D-8775-BAFDCF782B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFB930F-FCD9-4C3D-8775-BAFDCF782B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFB930F-FCD9-4C3D-8775-BAFDCF782B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
