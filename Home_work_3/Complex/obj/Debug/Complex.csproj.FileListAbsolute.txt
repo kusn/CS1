@@ -1,0 +1,7 @@
+D:\Projects\CS1\Home_work_3\Complex\bin\Debug\Complex.exe.config
+D:\Projects\CS1\Home_work_3\Complex\bin\Debug\Complex.exe
+D:\Projects\CS1\Home_work_3\Complex\bin\Debug\Complex.pdb
+D:\Projects\CS1\Home_work_3\Complex\obj\Debug\Complex.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_3\Complex\obj\Debug\Complex.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_3\Complex\obj\Debug\Complex.exe
+D:\Projects\CS1\Home_work_3\Complex\obj\Debug\Complex.pdb
