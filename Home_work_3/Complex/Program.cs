@@ -16,7 +16,7 @@ namespace Complex
     {
         public double im;
         public double re;
-        //  в C# в структурах могут храниться также действия над данными
+        
         public ComplexStruct Plus(ComplexStruct x)
         {
             ComplexStruct y;
@@ -58,10 +58,11 @@ namespace Complex
     {
         static void Main(string[] args)
         {
+            // Пример работы класса ComplexStruct
             ComplexStruct complex1;
             ComplexStruct complex2;
 
-            Console.WriteLine("Демонстрация работы структуры Complex");
+            Console.WriteLine("Демонстрация работы структуры ComplexStruct");
             Console.WriteLine("Введите действительную часть 1-го комплексного числа");
             complex1.re = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите мнимую 1-го часть комплексного числа");
@@ -74,6 +75,56 @@ namespace Complex
             Console.WriteLine($"Сумма чисел {complex1} и {complex2} равна: " + complex1.Plus(complex2));
             Console.WriteLine($"Разница чисел {complex1} и {complex2} равна: " + complex1.Subtract(complex2));
             Console.WriteLine($"Произведение чисел {complex1} и {complex2} равно: " + complex1.Multi(complex2));
+
+            // Пример работы класса ComplexClass
+
+            ComplexClass x1 = new ComplexClass();
+            ComplexClass x2 = new ComplexClass();
+            ComplexClass x3 = new ComplexClass();
+
+            Console.WriteLine("\n\tДемонстрация работы структуры ComplexClass\n");
+            Console.WriteLine("Введите действительную часть 1-го комплексного числа");
+            x1.Re = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите мнимую 1-го часть комплексного числа");
+            x1.Im = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите действительную часть 2-го комплексного числа");
+            x2.Re = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите мнимую 2-го часть комплексного числа");
+            x2.Im = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Сумма чисел {x1} и {x2} равна: " + x1.Plus(x2));
+            Console.WriteLine($"Разница чисел {x1} и {x2} равна: " + x1.Subtract(x2));
+            Console.WriteLine($"Произведение чисел {x1} и {x2} равно: " + x1.Multi(x2));
+
+            //Диалог с использованием switch демонстрирующий работу класса.
+            Console.WriteLine("\n\tДиалог с использованием switch демонстрирующий работу класса\n");
+            Console.WriteLine("Введите действительную часть 1-го комплексного числа");
+            x1.Re = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите мнимую 1-го часть комплексного числа");
+            x1.Im = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите действительную часть 2-го комплексного числа");
+            x2.Re = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите мнимую 2-го часть комплексного числа");
+            x2.Im = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Какое действие вы хотите выполнить?");
+            Console.WriteLine("1 - сложение; 2 - вычитание; 3 - умножение; 0 - выход");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            switch (n)
+            {
+                case 1:
+                    Console.WriteLine($"Сумма чисел {x1} и {x2} равна: " + x1.Plus(x2));
+                    break;
+                case 2:
+                    Console.WriteLine($"Разница чисел {x1} и {x2} равна: " + x1.Subtract(x2));
+                    break;
+                case 3:
+                    Console.WriteLine($"Произведение чисел {x1} и {x2} равно: " + x1.Multi(x2));
+                    break;
+                case 0:
+                    break;
+            }
         }
     }
 }
