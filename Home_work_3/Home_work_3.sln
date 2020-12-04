@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex", "Complex\Complex.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum_of_odd_positive_numbers", "Sum_of_odd_positive_numbers\Sum_of_odd_positive_numbers.csproj", "{9ECE105B-9ECE-40A5-A222-6C4402F703EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFractions", "SimpleFraction\SimpleFractions.csproj", "{4FA057CE-4057-45F4-9B78-06ADD4E932B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9ECE105B-9ECE-40A5-A222-6C4402F703EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ECE105B-9ECE-40A5-A222-6C4402F703EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ECE105B-9ECE-40A5-A222-6C4402F703EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA057CE-4057-45F4-9B78-06ADD4E932B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA057CE-4057-45F4-9B78-06ADD4E932B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA057CE-4057-45F4-9B78-06ADD4E932B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA057CE-4057-45F4-9B78-06ADD4E932B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
