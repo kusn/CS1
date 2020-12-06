@@ -1,0 +1,7 @@
+D:\Projects\CS1\Home_work_3\SimpleFraction\bin\Debug\SimpleFraction.exe.config
+D:\Projects\CS1\Home_work_3\SimpleFraction\bin\Debug\SimpleFraction.exe
+D:\Projects\CS1\Home_work_3\SimpleFraction\bin\Debug\SimpleFraction.pdb
+D:\Projects\CS1\Home_work_3\SimpleFraction\obj\Debug\SimpleFractions.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_3\SimpleFraction\obj\Debug\SimpleFractions.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_3\SimpleFraction\obj\Debug\SimpleFraction.exe
+D:\Projects\CS1\Home_work_3\SimpleFraction\obj\Debug\SimpleFraction.pdb

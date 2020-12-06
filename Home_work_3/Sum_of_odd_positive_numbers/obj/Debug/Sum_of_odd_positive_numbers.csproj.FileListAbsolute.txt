@@ -1,0 +1,7 @@
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.exe.config
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.exe
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\bin\Debug\Sum_of_odd_positive_numbers.pdb
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.exe
+D:\Projects\CS1\Home_work_3\Sum_of_odd_positive_numbers\obj\Debug\Sum_of_odd_positive_numbers.pdb
