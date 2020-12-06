@@ -21,6 +21,30 @@ namespace SimpleFractions
     {
         static void Main(string[] args)
         {
+            SimpleFraction sf1 = new SimpleFraction();
+            SimpleFraction sf2 = new SimpleFraction();
+
+            Console.WriteLine("Программа, демонстрирующая все разработанные элементы класса дробей");
+            Console.WriteLine("Введите числитель первой дроби (должно быть цело число):");
+            sf1.Numerator = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите знаменатель первой дроби (должно быть цело число):");
+            sf1.Denominator = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите числитель втрой дроби (должно быть цело число):");
+            sf2.Numerator = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите знаменатель второй дроби (должно быть цело число):");
+            sf2.Denominator = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Сумма данных дробей:");
+            Console.WriteLine(sf1.Plus(sf2).ToString());
+            Console.WriteLine("Разница данных дробей:");
+            Console.WriteLine(sf1.Subtract(sf2).ToString());
+            Console.WriteLine("Произведение данных дробей:");
+            Console.WriteLine(sf1.Multi(sf2).ToString());
+            Console.WriteLine("Отношение данных дробей:");
+            Console.WriteLine(sf1.Divide(sf2).ToString());
+            Console.WriteLine($"Десятичное представление 1-ой дроби: {sf1.ToDecimalFraction}");
+            Console.WriteLine($"Десятичное представление 2-ой дроби: {sf2.ToDecimalFraction}");
+            Console.WriteLine("Введите дробь в формате \"x/y\"");
         }
     }
 }

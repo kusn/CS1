@@ -20,7 +20,16 @@ namespace SimpleFractions
         public int Denominator
         {
             get { return denominator; }
-            set { denominator = value; }
+            set
+            {
+                if (denominator == 0)
+                {
+                    throw new ArgumentException("Знаменатель не может быть равен 0");
+                    throw new DivideByZeroException("В знаменателе не может быть нуля");
+                }
+                else
+                    denominator = value;
+            }
         }
 
         public SimpleFraction()
@@ -33,64 +42,79 @@ namespace SimpleFractions
         {
             if (denominator == 0)
             {
-                DivideByZeroException e = new DivideByZeroException();
-                Console.WriteLine(e.Message);                
+                throw new ArgumentException("Знаменатель не может быть равен 0");
+                throw new DivideByZeroException("В знаменателе не может быть нуля");
             }
-            this.numerator = numerator;
-            this.denominator = denominator;
+            else
+                {
+                this.numerator = numerator;
+                this.denominator = denominator;
+            }
         }
 
+        // Представление целого числа в виде обыкновенной дроби
         public SimpleFraction(int numerator)
         {
             this.numerator = numerator;
             this.denominator = 1;
         }
 
+        // Сложение дробей
         public SimpleFraction Plus(SimpleFraction sf2)
         {
-            SimpleFraction sf3 = new SimpleFraction();
-            int leastCommonMultiple = getLeastCommonMultiple(denominator, sf2.denominator);
-            sf3.numerator = numerator * leastCommonMultiple / denominator + sf2.numerator * leastCommonMultiple / sf2.numerator;
-            sf3.denominator = leastCommonMultiple;
+            SimpleFraction sf3 = new SimpleFraction();            
+            sf3.numerator = numerator * sf2.denominator + sf2.numerator * denominator;
+            sf3.denominator = denominator * sf2.denominator;
+            sf3 = Reduce(sf3);
             return sf3;
         }
 
+        // Вычитание дробей
         public SimpleFraction Subtract(SimpleFraction sf2)
         {
-            SimpleFraction sf3 = new SimpleFraction();
-            int leastCommonMultiple = getLeastCommonMultiple(denominator, sf2.denominator);
-            sf3.numerator = numerator * leastCommonMultiple / denominator - sf2.numerator * leastCommonMultiple / sf2.numerator;
-            sf3.denominator = leastCommonMultiple;
+            SimpleFraction sf3 = new SimpleFraction();            
+            sf3.numerator = numerator * sf2.denominator - sf2.numerator * denominator;
+            sf3.denominator = denominator * sf2.denominator;
+            sf3 = Reduce(sf3);
             return sf3;
         }
 
+        // Умножение дробей
         public SimpleFraction Multi(SimpleFraction sf2)
         {
             SimpleFraction sf3 = new SimpleFraction();
             sf3.numerator = numerator * sf2.numerator;
             sf3.denominator = denominator * sf2.denominator;
+            sf3 = Reduce(sf3);
             return sf3;
         }
 
+        // Деление дробей
         public SimpleFraction Divide(SimpleFraction sf2)
         {
             SimpleFraction sf3 = new SimpleFraction();
             sf3.numerator = numerator * sf2.denominator;
             sf3.denominator = denominator * sf2.numerator;
+            sf3 = Reduce(sf3);
             return sf3;
         }
 
+        // Вывод в виде строки
         public override string ToString()
         {
             string s = numerator + "/" + denominator;
             if (numerator * denominator < 0)
-                s = "-" + numerator + "/" + denominator;
+                s = "-" + Math.Abs(numerator) + "/" + Math.Abs(denominator);
             return s;
         }
 
-        public double ToDecimalFraction(SimpleFraction sf)
+        // Десятичное представление
+        public double ToDecimalFraction
         {
-            return Convert.ToDouble(sf.numerator) / Convert.ToDouble(sf.denominator);
+            get
+            {
+                return Convert.ToDouble(numerator) / Convert.ToDouble(denominator);
+            }
         }
 
         // Возвращает наибольший общий делитель
@@ -108,14 +132,14 @@ namespace SimpleFractions
             return a;
         }
 
-        // Возвращает наименьшее общее кратное
-        private static int getLeastCommonMultiple(int a, int b)
+        // Сокращение дроби
+        private static SimpleFraction Reduce(SimpleFraction sf)
         {
-            a = Math.Abs(a);
-            b = Math.Abs(b);
-
-            return a * b / getGreatestCommonDivisor(a, b);
+            SimpleFraction sf2 = new SimpleFraction();
+            int d = getGreatestCommonDivisor(sf.numerator, sf.denominator);
+            sf2.numerator = sf.numerator / d;
+            sf2.denominator = sf.denominator / d;
+            return sf2;
         }
-
     }
 }
