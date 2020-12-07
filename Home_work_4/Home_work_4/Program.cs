@@ -16,7 +16,7 @@ namespace PairDividedIntoThree
         {
             int[] a;
             
-            //  Создание массива и заполнение его случайными числами от min до max
+            // Создание массива и заполнение его случайными числами от min до max
             public MyArray(int n, int min, int max)
             {
                 a = new int[n];
@@ -42,11 +42,17 @@ namespace PairDividedIntoThree
             for (int i = 0; i < 20; i++)
                 Console.Write(myarray.Items[i] + " ");
             Console.WriteLine("\n");
-            for (int i = 0; i < 19; i++)
+            
+            for (int i = 1; i < 20; i++)
             {
-                if (myarray.Items[i] % 3 == 0)
+                if (myarray.Items[i] % 3 == 0 && myarray.Items[i - 1] % 3 != 0)
                 {
-                    Console.WriteLine($"Пара:{myarray.Items[i]};{myarray.Items[i + 1]}");
+                    Console.WriteLine($"Пара:{myarray.Items[i - 1]};{myarray.Items[i]}");
+                    count++;
+                }
+                else if (myarray.Items[i] % 3 != 0 && myarray.Items[i - 1] % 3 == 0)
+                {
+                    Console.WriteLine($"Пара:{myarray.Items[i - 1]};{myarray.Items[i]}");
                     count++;
                 }
             }

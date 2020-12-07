@@ -5,3 +5,10 @@ D:\Kudryashov\Учеба\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\De
 D:\Kudryashov\Учеба\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.csproj.CoreCompileInputs.cache
 D:\Kudryashov\Учеба\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.exe
 D:\Kudryashov\Учеба\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.pdb
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\bin\Debug\StaticClass_PairDividedIntoThree.exe.config
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\bin\Debug\StaticClass_PairDividedIntoThree.exe
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\bin\Debug\StaticClass_PairDividedIntoThree.pdb
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.exe
+D:\Projects\CS1\Home_work_4\StaticClass_PairDividedIntoThree\obj\Debug\StaticClass_PairDividedIntoThree.pdb
