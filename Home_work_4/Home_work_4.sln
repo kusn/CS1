@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_4", "Home_work_4\Home_work_4.csproj", "{AF11F334-0DBF-470D-8AA8-576E1C17DC1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PairDividedIntoThree", "Home_work_4\PairDividedIntoThree.csproj", "{AF11F334-0DBF-470D-8AA8-576E1C17DC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass_PairDividedIntoThree", "StaticClass_PairDividedIntoThree\StaticClass_PairDividedIntoThree.csproj", "{DC250623-EE5E-4DF7-8E24-7A0D68DD2FF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AF11F334-0DBF-470D-8AA8-576E1C17DC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF11F334-0DBF-470D-8AA8-576E1C17DC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF11F334-0DBF-470D-8AA8-576E1C17DC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC250623-EE5E-4DF7-8E24-7A0D68DD2FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC250623-EE5E-4DF7-8E24-7A0D68DD2FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC250623-EE5E-4DF7-8E24-7A0D68DD2FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC250623-EE5E-4DF7-8E24-7A0D68DD2FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
