@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\bin\Debug\LoginsFromFile.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\bin\Debug\LoginsFromFile.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\bin\Debug\LoginsFromFile.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\obj\Debug\LoginsFromFile.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\obj\Debug\LoginsFromFile.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\obj\Debug\LoginsFromFile.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\LoginsFromFile\obj\Debug\LoginsFromFile.pdb
