@@ -1,0 +1,14 @@
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\obj\Debug\PairDividedIntoThree.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\obj\Debug\PairDividedIntoThree.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\obj\Debug\Home_work_4.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\Home_work_4\obj\Debug\Home_work_4.pdb
+D:\Projects\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.exe.config
+D:\Projects\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.exe
+D:\Projects\CS1\Home_work_4\Home_work_4\bin\Debug\Home_work_4.pdb
+D:\Projects\CS1\Home_work_4\Home_work_4\obj\Debug\PairDividedIntoThree.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_4\Home_work_4\obj\Debug\PairDividedIntoThree.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_4\Home_work_4\obj\Debug\Home_work_4.exe
+D:\Projects\CS1\Home_work_4\Home_work_4\obj\Debug\Home_work_4.pdb

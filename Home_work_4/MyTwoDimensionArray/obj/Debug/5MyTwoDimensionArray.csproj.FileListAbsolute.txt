@@ -1,0 +1,10 @@
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\bin\Debug\MyTwoDimensionArray.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\bin\Debug\MyTwoDimensionArray.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\bin\Debug\MyTwoDimensionArray.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\bin\Debug\MyArrayLibrary.dll
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\bin\Debug\MyArrayLibrary.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\obj\Debug\5MyTwoDimensionArray.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\obj\Debug\5MyTwoDimensionArray.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\obj\Debug\5MyTwoDimensionArray.csproj.CopyComplete
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\obj\Debug\MyTwoDimensionArray.exe
+D:\Kudryashov\Учеба\CS1\Home_work_4\MyTwoDimensionArray\obj\Debug\MyTwoDimensionArray.pdb
