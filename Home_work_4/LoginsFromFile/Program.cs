@@ -23,11 +23,6 @@ namespace LoginsFromFile
                 this.Login = login;
                 this.Password = pswd;
             }
-            
-            /*public string ToString()
-            {
-
-            }*/
         }
 
         static Account[] AccountsFromFile(string file)

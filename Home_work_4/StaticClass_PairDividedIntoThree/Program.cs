@@ -28,29 +28,52 @@ namespace StaticClass_PairDividedIntoThree
         // Получение массива из файла
         public static int[] GetArrayFromFile(string file)
         {
-            StreamReader sr = new StreamReader(file);
-            //  Считываем количество элементов массива            
-            int N = File.ReadAllLines(file).Length;
-            int[] a = new int[N];
-            //  Считываем массив
-            for (int i = 0; i < N; i++)
+            List<int> list = new List<int>();
+            StreamReader sr = null;
+            try
             {
-                a[i] = Convert.ToInt32(sr.ReadLine());
+                sr = new StreamReader(file);
+                //  Считываем количество элементов массива            
+                int N = File.ReadAllLines(file).Length;
+                //a = new int[N];
+                //  Считываем массив
+                for (int i = 0; i < N; i++)
+                {
+                    list.Add(Convert.ToInt32(sr.ReadLine()));
+                }
             }
-            sr.Close();
-            return a;
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                if (sr != null) sr.Close();
+            }
+            return list.ToArray();
         }
 
         // Запись массива в файл
         public static void SetArrayToFile(string file, int[] a)
-        {            
-            StreamWriter sw = new StreamWriter(file);
-
-            for (int i = 0; i < a.Length; i++)
+        {
+            StreamWriter sw = null;
+            try
             {
-                sw.WriteLine(a[i]);
+                sw = new StreamWriter(file);
+
+                for (int i = 0; i < a.Length; i++)
+                {
+                    sw.WriteLine(a[i]);
+                }
             }
-            sw.Close();
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                if (sw != null) sw.Close();
+            }
         }
 
         // Получение списка пар
@@ -96,22 +119,8 @@ namespace StaticClass_PairDividedIntoThree
             
             // Работа с файлом
             Console.WriteLine("Запись массива в файл");
-            try
-            {
-                MyArray.SetArrayToFile("..\\..\\file.txt", MyArray.GetRndArray(20, -10000, 10000));
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            try
-            {
-                a = MyArray.GetArrayFromFile("..\\..\\file.txt");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            MyArray.SetArrayToFile("..\\..\\file.txt", MyArray.GetRndArray(20, -10000, 10000));
+            a = MyArray.GetArrayFromFile("..\\..\\file.txt");
             
             list = MyArray.PairDividedIntoThree(a);
 
