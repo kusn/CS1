@@ -44,11 +44,16 @@ namespace CorrectLogin
             else
             {
                 Console.WriteLine("Логин не верного формата");
-                Console.ReadLine();
             }
+            Console.ReadLine();
 
             Console.WriteLine("Проверка корректности логина с помощью регулярных выражений");
-            Regex myReg = new Regex(@"[A-Za-z]{2,10}+")
+            Regex myReg = new Regex("^[A-Za-z][A-Za-z0-9]{2,9}$");
+            if(myReg.IsMatch(login))
+                Console.WriteLine("Логин верного формата");
+            else
+                Console.WriteLine("Логин не верного формата");
+            Console.ReadLine();
         }
     }
 }
