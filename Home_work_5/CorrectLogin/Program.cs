@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace CorrectLogin
 {
@@ -45,6 +46,9 @@ namespace CorrectLogin
                 Console.WriteLine("Логин не верного формата");
                 Console.ReadLine();
             }
+
+            Console.WriteLine("Проверка корректности логина с помощью регулярных выражений");
+            Regex myReg = new Regex(@"[A-Za-z]{2,10}+")
         }
     }
 }
