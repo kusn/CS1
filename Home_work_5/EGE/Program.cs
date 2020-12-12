@@ -20,48 +20,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace EGE
 {
     class Program
     {
-        public static int[] GetDigits(string str)
-        {
-            int[] n = new int[str.Length];
-            int number = int.Parse(str);
-            for(int i = 0; i < str.Length; i++)
-            {
-                number = number % 10;
-                n[i] = number;
-                number = number / 10;
-            }
-            return n;
-        }
-        
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите количество учеников N, которое не меньше 10, но не превосходит 100");
-            int N = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Введите количество учеников N, которое не меньше 10, но не превосходит 100");
+            //int N = Convert.ToInt32(Console.ReadLine());
 
-            string[] students = new string[N];            
-            string[] name = new string[N];
-            string[] lastname = new string[N];
-            string[] sball = new string[N];
-            double[] ball = new double[N];
+            int N = File.ReadAllLines("..//..//Students.txt").Length;
+            StreamReader sr = new StreamReader("..//..//Students.txt");
+
+            string[] students = new string[N- 1];            
+            string[] name = new string[N - 1];
+            string[] lastname = new string[N - 1];            
+            double[] ball = new double[N - 1];
             int[] dball = new int[3];
             Dictionary<string, double> dict = new Dictionary<string, double>();
             double min_ball = 5.0;            
             int i1 = 0;
 
-            for(int i = 0; i < N; i++)
+            sr.ReadLine();
+            for (int i = 0; i < N - 1; i++)
             {
-                Console.WriteLine("Введите данные по ученикам в формате < Фамилия > < Имя > < оценки >: ");
-                students[i] = Console.ReadLine();
+                //Console.WriteLine("Введите данные по ученикам в формате < Фамилия > < Имя > < оценки >. Оценки через пробел: ");
+                //students[i] = Console.ReadLine();
+                students[i] = sr.ReadLine();
                 lastname[i] = students[i].Split(' ')[0];
                 name[i] = students[i].Split(' ')[1];
-                name[i] = lastname[i] + " " + name[i];
-                sball[i] = students[i].Split(' ')[2];
-                dball = GetDigits(sball[i]);                
+                name[i] = lastname[i] + " " + name[i];                
+                dball[0] = int.Parse(students[i].Split(' ')[2]);
+                dball[1] = int.Parse(students[i].Split(' ')[3]);
+                dball[2] = int.Parse(students[i].Split(' ')[4]);
                 ball[i] = (double)(dball[0] + dball[1] + dball[2]) / 3.0;
                 dict.Add(name[i], ball[i]);
                 if (ball[i] <= min_ball)
@@ -71,6 +64,12 @@ namespace EGE
                 }
             }
 
+            for (int i = 0; i < dict.Count; i++)
+            {
+                Console.WriteLine(dict.ElementAt(i).Key + " " + dict.ElementAt(i).Value);
+            }
+            Console.WriteLine(Environment.NewLine);
+
             Dictionary<string, double> ndict = new Dictionary<string, double>();
             ndict.Add(dict.ElementAt(i1).Key, dict.ElementAt(i1).Value);
             Dictionary<string, double> cdict = new Dictionary<string, double>();
@@ -78,7 +77,7 @@ namespace EGE
             cdict.Remove(dict.ElementAt(i1).Key);
             
             min_ball = 5.0;
-            for (int i = 0; i < N - 1; i++)
+            for (int i = 0; i < cdict.Count; i++)
             {
                 if (cdict.ElementAt(i).Value <= min_ball)
                 {
@@ -90,7 +89,7 @@ namespace EGE
             cdict.Remove(dict.ElementAt(i1).Key);
             
             min_ball = 5.0;
-            for (int i = 0; i < N - 2; i++)
+            for (int i = 0; i < dict.Count; i++)
             {
                 if (cdict.ElementAt(i).Value <= min_ball)
                 {
@@ -110,6 +109,7 @@ namespace EGE
                 if (dict.ElementAt(i).Value == ndict.ElementAt(2).Value)
                     Console.WriteLine(dict.ElementAt(i).Key + " " + dict.ElementAt(i).Value);
             }
+            sr.Close();
         }
     }
 }
