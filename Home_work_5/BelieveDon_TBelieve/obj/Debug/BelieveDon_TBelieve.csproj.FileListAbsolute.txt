@@ -1,0 +1,7 @@
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\bin\Debug\BelieveDon_TBelieve.exe.config
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\bin\Debug\BelieveDon_TBelieve.exe
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\bin\Debug\BelieveDon_TBelieve.pdb
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\obj\Debug\BelieveDon_TBelieve.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\obj\Debug\BelieveDon_TBelieve.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\obj\Debug\BelieveDon_TBelieve.exe
+D:\Projects\CS1\Home_work_5\BelieveDon_TBelieve\obj\Debug\BelieveDon_TBelieve.pdb
