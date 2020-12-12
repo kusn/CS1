@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\bin\Debug\Message.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\bin\Debug\Message.exe
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\bin\Debug\Message.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\obj\Debug\Message.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\obj\Debug\Message.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\obj\Debug\Message.exe
+D:\Kudryashov\Учеба\CS1\Home_work_5\Message\obj\Debug\Message.pdb
