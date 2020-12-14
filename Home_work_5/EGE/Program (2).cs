@@ -33,6 +33,7 @@ namespace EGE
             {
                 number = number % 10;
                 n[i] = number;
+                number = number / 10;
             }
             return n;
         }
