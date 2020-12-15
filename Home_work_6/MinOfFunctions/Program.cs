@@ -54,29 +54,75 @@ namespace MinOfFunctions
             bw.Close();
             fs.Close();
         }
-        public static double Load(string fileName)
+        public static List<double> Load(string fileName, out double min)
         {
             FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             BinaryReader bw = new BinaryReader(fs);
-            double min = double.MaxValue;
-            double d;
+            min = double.MaxValue;
+            List<double> d = new List<double>();
             for (int i = 0; i < fs.Length / sizeof(double); i++)
             {
                 // Считываем значение и переходим к следующему
-                d = bw.ReadDouble();
-                if (d < min) min = d;
+                d.Add(bw.ReadDouble());
+                //d[i] = bw.ReadDouble();
+                if (d[i] < min) min = d[i];
             }
             bw.Close();
             fs.Close();
-            return min;
+            return d;
         }
 
         static void Main(string[] args)
         {
-            Fun[] funs = new Fun[4];            
-            
-            SaveFunc(new Fun(F), "data.bin", -100, 100, 0.5);
-            Console.WriteLine(Load("data.bin"));
+            Fun[] funs = { SquareFunc, LinFunc, CubeFunc, SinFunc };
+            int n = 0;
+            double x1, x2;
+            List<double> d = new List<double>();
+            double min;
+
+            Console.WriteLine("Программа нахождения минимума функции на определенном отрезке");
+            Console.WriteLine("Выберите функцию:");
+            Console.WriteLine("1  -  x^2-50x+10");
+            Console.WriteLine("2  -  3*x");
+            Console.WriteLine("3  -  x^3-50*x^2-25*x-10");
+            Console.WriteLine("4  -  5*sin(x)");
+            Console.WriteLine("Введите соответсвующий номер функции: ");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите начало и конец интервала (вводить через пробел от большего к меньшему): ");
+            string[] str  = Console.ReadLine().Split(' ');
+            x1 = double.Parse(str[0]);
+            x2 = double.Parse(str[1]);
+
+            switch (n)
+            {
+                case 1:
+                    {
+                        SaveFunc(funs[0], "data.bin", x1, x2, 0.5);
+                        break;
+                    }
+                case 2:
+                    {
+                        SaveFunc(funs[1], "data.bin", x1, x2, 0.5);
+                        break;
+                    }
+                case 3:
+                    {
+                        SaveFunc(funs[2], "data.bin", x1, x2, 0.5);
+                        break;
+                    }
+                case 4:
+                    {
+                        SaveFunc(funs[3], "data.bin", x1, x2, 0.5);
+                        break;
+                    }
+            }
+
+            d = Load("data.bin", out min);
+
+            for (int i = 0; i < d.Count; i++)
+                Console.WriteLine(d[i]);
+
+            Console.WriteLine("Минимум функции на данном отрезке: " + min);
             Console.ReadKey();
         }
     }
