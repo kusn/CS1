@@ -21,10 +21,26 @@ namespace MinOfFunctions
 
     class Program
     {
-        public static double F(double x)
+        public static double SquareFunc(double x)
         {
             return x * x - 50 * x + 10;
         }
+
+        public static double LinFunc(double x)
+        {
+            return 3 * x;
+        }
+
+        public static double CubeFunc(double x)
+        {
+            return x * x * x - 50 * x * x - 25 * x - 10;
+        }
+
+        public static double SinFunc(double x)
+        {
+            return 5 * Math.Sin(x * Math.PI / 180);
+        }
+
         public static void SaveFunc(Fun FF, string fileName, double a, double b, double step)
         {
             FileStream fs = new FileStream(fileName, FileMode.Create, FileAccess.Write);
@@ -32,7 +48,7 @@ namespace MinOfFunctions
             double x = a;
             while (x <= b)
             {
-                bw.Write(F(x));
+                bw.Write(FF(x));
                 x += step;// x=x+step;
             }
             bw.Close();
@@ -57,7 +73,9 @@ namespace MinOfFunctions
 
         static void Main(string[] args)
         {
-            SaveFunc("data.bin", -100, 100, 0.5);
+            Fun[] funs = new Fun[4];            
+            
+            SaveFunc(new Fun(F), "data.bin", -100, 100, 0.5);
             Console.WriteLine(Load("data.bin"));
             Console.ReadKey();
         }
