@@ -5,3 +5,10 @@ D:\Projects\Collections\Collections\obj\Debug\Collections.csprojAssemblyReferenc
 D:\Projects\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
 D:\Projects\Collections\Collections\obj\Debug\Collections.exe
 D:\Projects\Collections\Collections\obj\Debug\Collections.pdb
+D:\Projects\CS1\Home_work_6\Collections\bin\Debug\Collections.exe.config
+D:\Projects\CS1\Home_work_6\Collections\bin\Debug\Collections.exe
+D:\Projects\CS1\Home_work_6\Collections\bin\Debug\Collections.pdb
+D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.exe
+D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.pdb

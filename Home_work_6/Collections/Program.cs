@@ -25,7 +25,7 @@ namespace Collections
         public string department;
         public int group;
         public string city;
-        int age;
+        public int age;
         // Создаем конструктор
         public Student(string firstName, string lastName, string university, string faculty, string department, int age, int course, int group, string city)
         {
@@ -44,20 +44,36 @@ namespace Collections
 
     class Program
     {
-        static int MyDelegat(Student st1, Student st2)          // Создаем метод для сравнения для экземпляров
+        static int MyDelegat_firstName(Student st1, Student st2)                  // Создаем метод для сравнения для экземпляров
         {
 
-            return String.Compare(st1.firstName, st2.firstName);          // Сравниваем две строки
+            return String.Compare(st1.firstName, st2.firstName);        // Сравниваем две строки
+        }
+
+        static int MyDelegat_course(Student st1, Student st2)                  // Создаем метод для сравнения для экземпляров
+        {
+            if (st1.course > st2.course) return 1;
+            else if (st1.course > st2.course) return -1;
+            else return 0;
+        }
+
+        static int MyDelegat_age(Student st1, Student st2)                  // Создаем метод для сравнения для экземпляров
+        {
+            if (st1.age > st2.age) return 1;
+            else if (st1.age > st2.age) return -1;
+            else return 0;
         }
 
 
         static void Main(string[] args)
         {
-            int bakalavr = 0;
-            int magistr = 0;
-            List<Student> list = new List<Student>();                             // Создаем список студентов
+            int count_stud_5 = 0;                                       // Кол-во студентов на 5 курсе
+            int count_stud_6 = 0;                                       // Кол-во студентов на 6 курсе
+            Dictionary<int, int> dict = new Dictionary<int, int>();     // Создаем кол-во студентов от 18 до 20 лет на каждом курсе
+            List<Student> list = new List<Student>();                   // Создаем список студентов
             DateTime dt = DateTime.Now;
             StreamReader sr = new StreamReader("..//..//students.csv", Encoding.GetEncoding(1251));
+            int i = 0;
             while (!sr.EndOfStream)
             {
                 try
@@ -65,8 +81,20 @@ namespace Collections
                     string[] s = sr.ReadLine().Split(';');
                     // Добавляем в список новый экземпляр класса Student
                     list.Add(new Student(s[0], s[1], s[2], s[3], s[4], int.Parse(s[5]), int.Parse(s[6]), int.Parse(s[7]), s[8]));
+                    
                     // Одновременно подсчитываем количество бакалавров и магистров
-                    if (int.Parse(s[6]) < 5) bakalavr++; else magistr++;
+                    if (int.Parse(s[6]) == 5) count_stud_5++;
+                    else if (int.Parse(s[6]) == 6) count_stud_6++;
+
+                    if (int.Parse(s[5]) >= 18 && int.Parse(s[5]) <= 20)
+                        if (dict.Count != 0 && dict.ContainsValue(int.Parse(s[6])))
+                        {
+                            dict[int.Parse(s[6])]++;
+                        }
+                    else
+                        {
+                            dict.Add(int.Parse(s[6]), 1);
+                        }
                 }
                 catch (Exception e)
                 {
@@ -75,13 +103,27 @@ namespace Collections
                     // Выход из Main
                     if (Console.ReadKey().Key == ConsoleKey.Escape) return;
                 }
+                i++;
             }
             sr.Close();
-            list.Sort(new Comparison<Student>(MyDelegat));
+            //list.Sort(new Comparison<Student>(MyDelegat));
             Console.WriteLine("Всего студентов:" + list.Count);
-            Console.WriteLine("Магистров:{0}", magistr);
-            Console.WriteLine("Бакалавров:{0}", bakalavr);
+            Console.WriteLine("Всего студентов на 5 курсе: {0}", count_stud_5);
+            Console.WriteLine("Всего студентов на 6 курсе: {0}", count_stud_6);
+
+            Console.WriteLine(System.Environment.NewLine + "Кол-во студентов от 18 до 20 лет на каждом курсе.");
+            Console.WriteLine("Курс - кол-во:");
+            foreach (var v in dict)
+                Console.WriteLine(v.Key + " - " + v.Value);
+
+            Console.WriteLine(System.Environment.NewLine + "Сортировка студентов по возрасту:");
+            list.Sort(new Comparison<Student>(MyDelegat_age));
+            foreach (var v in list) Console.WriteLine(v.firstName + "-" + v.age);
+
+            Console.WriteLine(System.Environment.NewLine + "Сортировка студентов по курсу и возрасту:");
+            list.Sort(new Comparison<Student>(MyDelegat_course));
             foreach (var v in list) Console.WriteLine(v.firstName);
+
             Console.WriteLine(DateTime.Now - dt);
             Console.ReadKey();
         }
