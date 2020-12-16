@@ -12,3 +12,10 @@ D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.csprojAssemblyRefe
 D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
 D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.exe
 D:\Projects\CS1\Home_work_6\Collections\obj\Debug\Collections.pdb
+D:\Учеба\CS1\CS1\Home_work_6\Collections\bin\Debug\Collections.exe.config
+D:\Учеба\CS1\CS1\Home_work_6\Collections\bin\Debug\Collections.exe
+D:\Учеба\CS1\CS1\Home_work_6\Collections\bin\Debug\Collections.pdb
+D:\Учеба\CS1\CS1\Home_work_6\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+D:\Учеба\CS1\CS1\Home_work_6\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\Учеба\CS1\CS1\Home_work_6\Collections\obj\Debug\Collections.exe
+D:\Учеба\CS1\CS1\Home_work_6\Collections\obj\Debug\Collections.pdb
