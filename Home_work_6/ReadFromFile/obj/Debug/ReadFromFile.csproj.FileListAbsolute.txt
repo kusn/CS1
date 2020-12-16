@@ -1,0 +1,7 @@
+D:\Projects\CS1\Home_work_6\ReadFromFile\bin\Debug\ReadFromFile.exe.config
+D:\Projects\CS1\Home_work_6\ReadFromFile\bin\Debug\ReadFromFile.exe
+D:\Projects\CS1\Home_work_6\ReadFromFile\bin\Debug\ReadFromFile.pdb
+D:\Projects\CS1\Home_work_6\ReadFromFile\obj\Debug\ReadFromFile.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_6\ReadFromFile\obj\Debug\ReadFromFile.exe
+D:\Projects\CS1\Home_work_6\ReadFromFile\obj\Debug\ReadFromFile.pdb
+D:\Projects\CS1\Home_work_6\ReadFromFile\obj\Debug\ReadFromFile.csprojAssemblyReference.cache
