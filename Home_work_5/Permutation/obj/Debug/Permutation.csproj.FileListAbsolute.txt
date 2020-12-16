@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\bin\Debug\Permutation.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\bin\Debug\Permutation.exe
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\bin\Debug\Permutation.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\obj\Debug\Permutation.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\obj\Debug\Permutation.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\obj\Debug\Permutation.exe
+D:\Kudryashov\Учеба\CS1\Home_work_5\Permutation\obj\Debug\Permutation.pdb

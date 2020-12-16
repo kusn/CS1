@@ -1,0 +1,14 @@
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.exe
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.exe
+D:\Kudryashov\Учеба\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.pdb
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.exe.config
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.exe
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\bin\Debug\MinOfFunctions.pdb
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.csprojAssemblyReference.cache
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.csproj.CoreCompileInputs.cache
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.exe
+D:\Учеба\CS1\CS1\Home_work_6\MinOfFunctions\obj\Debug\MinOfFunctions.pdb

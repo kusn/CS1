@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\bin\Debug\Functions.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\bin\Debug\Functions.exe
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\bin\Debug\Functions.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\obj\Debug\Functions.exe
+D:\Kudryashov\Учеба\CS1\Home_work_6\Functions\obj\Debug\Functions.pdb
