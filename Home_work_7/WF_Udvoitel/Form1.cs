@@ -22,6 +22,10 @@ namespace WF_Udvoitel
 {
     public partial class Form1 : Form
     {
+        int target;
+        int value;
+        Doubler doubler;
+
         public Form1()
         {
             InitializeComponent();
@@ -29,17 +33,35 @@ namespace WF_Udvoitel
 
         private void btnCommand1_Click(object sender, EventArgs e)
         {
+            value++;
+            doubler.SetValue(value);
+            lblValue.Text = "Текущее значение: " + value.ToString();
 
         }
 
         private void btnCommand2_Click(object sender, EventArgs e)
         {
-
+            value = value * 2;
+            doubler.SetValue(value);
+            lblValue.Text = "Текущее значение: " + value.ToString();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
+            doubler.Reset();
+            value = doubler.GetValue();
+            lblValue.Text = "Текущее значение: " + value.ToString();
+        }
 
+        private void NewGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            doubler.Start();
+            doubler = new Doubler();
+            target = doubler.GetTarget();
+            MessageBox.Show(target.ToString());
+            lblTarget.Text = target.ToString();
+            //statusStrip1.Text = "Цель: " + target.ToString() + "Текущее значение: " + doubler.GetValue().ToString();
+            
         }
     }
 }
