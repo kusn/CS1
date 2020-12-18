@@ -6,25 +6,28 @@ using System.Threading.Tasks;
 
 namespace WF_Udvoitel
 {
+    struct Operations
+    {
+        int step;
+        int value;        
+    }
     class Doubler
     {
-        int commands = 0;               // Счетчик количества отданных команд удвоителю
-        int steps = 0;                  // Счетчик числа шагов
-        int value = 0;                  // Текущее значение
+        int steps;                  // Счетчик числа шагов
+        int value;                  // Текущее значение
+
+        Operations op = new Operations();
         int target;
 
-        // Получить текущее кол-во отданных команд
-        public int GetCommandsCount()
-        {
-            return commands;
-        }
+        new Random rnd = new Random();
 
-        // Прибавить +1 к кол-ву команд
-        public void SetCommands()
+        public Doubler()
         {
-            commands++;
+            this.steps = 0;
+            this.value = 0;
+            this.target = 0;
         }
-
+        
         // Получить текущее кол-во шагов
         public int GetSteps()
         {
@@ -49,9 +52,24 @@ namespace WF_Udvoitel
             this.value = value;
         }
 
+        // Получить текущее значение цели
         public int GetTarget()
         {
             return target;
+        }
+
+        // Метод увеличения на единицу
+        public void Increment()
+        {
+            this.value++;
+            this.steps++;
+        }
+
+        // Метод удвоения
+        public void Double()
+        {
+            this.value *= 2;
+            this.steps++;
         }
 
         // Сброс текущего значения
@@ -66,7 +84,6 @@ namespace WF_Udvoitel
         {
             Random rnd = new Random();
             steps = 0;
-            commands = 0;
             value = 1;
             target = rnd.Next(5, 100);
         }
