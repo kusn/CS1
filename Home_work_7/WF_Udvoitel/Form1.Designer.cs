@@ -36,7 +36,8 @@ namespace WF_Udvoitel
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.NewGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTarget = new System.Windows.Forms.Label();
-            this.lblValue = new System.Windows.Forms.Label();
+            this.lblStep = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@ namespace WF_Udvoitel
             // 
             // btnCommand1
             // 
+            this.btnCommand1.Enabled = false;
             this.btnCommand1.Location = new System.Drawing.Point(277, 27);
             this.btnCommand1.Name = "btnCommand1";
             this.btnCommand1.Size = new System.Drawing.Size(75, 23);
@@ -61,6 +63,7 @@ namespace WF_Udvoitel
             // 
             // btnCommand2
             // 
+            this.btnCommand2.Enabled = false;
             this.btnCommand2.Location = new System.Drawing.Point(277, 56);
             this.btnCommand2.Name = "btnCommand2";
             this.btnCommand2.Size = new System.Drawing.Size(75, 23);
@@ -71,6 +74,7 @@ namespace WF_Udvoitel
             // 
             // btnReset
             // 
+            this.btnReset.Enabled = false;
             this.btnReset.Location = new System.Drawing.Point(277, 85);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
@@ -105,21 +109,31 @@ namespace WF_Udvoitel
             this.lblTarget.TabIndex = 5;
             this.lblTarget.Text = "Цель: ";
             // 
-            // lblValue
+            // lblStep
             // 
-            this.lblValue.AutoSize = true;
-            this.lblValue.Location = new System.Drawing.Point(12, 75);
-            this.lblValue.Name = "lblValue";
-            this.lblValue.Size = new System.Drawing.Size(105, 13);
-            this.lblValue.TabIndex = 6;
-            this.lblValue.Text = "Текущее значение:";
+            this.lblStep.AutoSize = true;
+            this.lblStep.Location = new System.Drawing.Point(51, 157);
+            this.lblStep.Name = "lblStep";
+            this.lblStep.Size = new System.Drawing.Size(13, 13);
+            this.lblStep.TabIndex = 7;
+            this.lblStep.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 157);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Шаг: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 179);
-            this.Controls.Add(this.lblValue);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblStep);
             this.Controls.Add(this.lblTarget);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCommand2);
@@ -145,7 +159,8 @@ namespace WF_Udvoitel
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem NewGameToolStripMenuItem;
         private System.Windows.Forms.Label lblTarget;
-        private System.Windows.Forms.Label lblValue;
+        private System.Windows.Forms.Label lblStep;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -35,33 +35,44 @@ namespace WF_Udvoitel
         {
             value++;
             doubler.SetValue(value);
-            lblValue.Text = "Текущее значение: " + value.ToString();
-
+            lblNumber.Text = "Текущее значение: " + value.ToString();
+            doubler.SetSteps();
+            lblStep.Text = doubler.GetSteps().ToString();
         }
 
         private void btnCommand2_Click(object sender, EventArgs e)
         {
             value = value * 2;
             doubler.SetValue(value);
-            lblValue.Text = "Текущее значение: " + value.ToString();
+            lblNumber.Text = "Текущее значение: " + value.ToString();
+            doubler.SetSteps();
+            lblStep.Text = doubler.GetSteps().ToString();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
             doubler.Reset();
             value = doubler.GetValue();
-            lblValue.Text = "Текущее значение: " + value.ToString();
+            lblNumber.Text = "Текущее значение: " + value.ToString();
+            lblStep.Text = doubler.GetSteps().ToString();
         }
 
         private void NewGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            doubler.Start();
             doubler = new Doubler();
+            doubler.Start();
+
+            btnCommand1.Enabled = true;
+            btnCommand2.Enabled = true;
+            btnReset.Enabled = true;
+
             target = doubler.GetTarget();
             MessageBox.Show(target.ToString());
             lblTarget.Text = target.ToString();
-            //statusStrip1.Text = "Цель: " + target.ToString() + "Текущее значение: " + doubler.GetValue().ToString();
-            
+            lblStep.Text = doubler.GetSteps().ToString();
+
+            if (value == target)
+                MessageBox.Show($"Вы смогли получить необходимое число за {doubler.GetSteps()} шагов");
         }
     }
 }
