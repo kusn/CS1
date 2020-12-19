@@ -1,0 +1,9 @@
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\bin\Debug\GuessNumber.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\bin\Debug\GuessNumber.exe
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\bin\Debug\GuessNumber.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.exe
+D:\Kudryashov\Учеба\CS1\Home_work_7\GuessNumber\obj\Debug\GuessNumber.pdb

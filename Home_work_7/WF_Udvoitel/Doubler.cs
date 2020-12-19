@@ -106,7 +106,6 @@ namespace WF_Udvoitel
         // Старт игры
         public void Start()
         {
-            int needstep;
             target = rnd.Next(10, 101);
             if (Update != null) Update.Invoke();
             Finish = NeededSteps();

@@ -22,8 +22,7 @@ namespace WF_Udvoitel
 {
     public partial class Form1 : Form
     {
-        int target;
-        int value;
+        int target;        
         Doubler doubler;
 
         public Form1()
