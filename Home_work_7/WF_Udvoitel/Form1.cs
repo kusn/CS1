@@ -31,35 +31,46 @@ namespace WF_Udvoitel
             InitializeComponent();
         }
 
+        void Update()
+        {
+            lblNumber.Text = doubler.GetValue().ToString();
+            lblStep.Text = doubler.GetSteps().ToString();
+            lblTarget.Text = doubler.GetTarget().ToString();
+        }
+
+        void Status()
+        {
+            if(doubler.GetSteps() == doubler.NeededSteps() && doubler.GetValue() == doubler.GetTarget())
+                MessageBox.Show("У Вас получилось!");
+            else if (doubler.GetSteps() > doubler.NeededSteps() || doubler.GetValue() > doubler.GetTarget())
+                MessageBox.Show($"У Вас не получилось. Попробуйте ещё раз. Необходимое кол-во шагов {doubler.NeededSteps()}");
+        }
+
         private void btnCommand1_Click(object sender, EventArgs e)
         {
-            value++;
-            doubler.SetValue(value);
-            lblNumber.Text = "Текущее значение: " + value.ToString();
-            doubler.SetSteps();
-            lblStep.Text = doubler.GetSteps().ToString();
+            doubler.Increment();
         }
 
         private void btnCommand2_Click(object sender, EventArgs e)
         {
-            value = value * 2;
-            doubler.SetValue(value);
-            lblNumber.Text = "Текущее значение: " + value.ToString();
-            doubler.SetSteps();
-            lblStep.Text = doubler.GetSteps().ToString();
+            doubler.Double();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            doubler.Reset();
-            value = doubler.GetValue();
-            lblNumber.Text = "Текущее значение: " + value.ToString();
-            lblStep.Text = doubler.GetSteps().ToString();
+            doubler.Reset();            
         }
 
-        private void NewGameToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnUndo_Click(object sender, EventArgs e)
+        {
+            doubler.Undo();
+        }
+
+        private void startToolStripMenuItem_Click(object sender, EventArgs e)
         {
             doubler = new Doubler();
+            doubler.Update += new Action(Update);
+            doubler.Status += new Action(Status);
             doubler.Start();
 
             btnCommand1.Enabled = true;
@@ -67,12 +78,23 @@ namespace WF_Udvoitel
             btnReset.Enabled = true;
 
             target = doubler.GetTarget();
-            MessageBox.Show(target.ToString());
-            lblTarget.Text = target.ToString();
-            lblStep.Text = doubler.GetSteps().ToString();
+            //doubler.SetValue(1);            
+            Update();
+            MessageBox.Show("Необходимо получить: " + target.ToString());
 
-            if (value == target)
-                MessageBox.Show($"Вы смогли получить необходимое число за {doubler.GetSteps()} шагов");
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            if (form2.ShowDialog() == DialogResult.OK)
+            {
+            };
         }
     }
 }

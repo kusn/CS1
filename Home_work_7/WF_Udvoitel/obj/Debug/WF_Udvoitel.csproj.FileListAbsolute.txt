@@ -8,3 +8,4 @@ D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.cspro
 D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.csproj.CoreCompileInputs.cache
 D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.exe
 D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.Form2.resources

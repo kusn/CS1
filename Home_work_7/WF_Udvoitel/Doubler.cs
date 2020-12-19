@@ -6,50 +6,60 @@ using System.Threading.Tasks;
 
 namespace WF_Udvoitel
 {
-    struct Operations
+    struct Iteration
     {
-        int step;
-        int value;        
+        public int step { get; set; }
+        public int value { get; set; }
     }
     class Doubler
     {
-        int steps;                  // Счетчик числа шагов
-        int value;                  // Текущее значение
+        Iteration itt = new Iteration();
+        Stack<Iteration> stack = new Stack<Iteration>();
 
-        Operations op = new Operations();
+        // События
+        public event System.Action Update;
+        public event System.Action Status;
+
+        public int Finish { get; private set; }
+
         int target;
 
-        new Random rnd = new Random();
+        Random rnd = new Random();
 
         public Doubler()
         {
-            this.steps = 0;
-            this.value = 0;
-            this.target = 0;
+            itt.step = 0;
+            itt.value = 1;            
         }
         
+        public int NeededSteps()
+        {
+            int n = target;
+            int i = 0;
+            while (n != 1)
+            {
+                n = n % 2 == 0 ? n / 2 : n - 1;
+                i++;
+            }
+            return i;
+        }
+
         // Получить текущее кол-во шагов
         public int GetSteps()
-        {
-            return steps;
+        {            
+            return itt.step;
         }
-
-        // Прибавить шаг
-        public void SetSteps()
-        {
-            steps++;
-        }
-
+        
         // Получить текущее значение
         public int GetValue()
         {
-            return value;
+            return itt.value;
         }
 
         // Установить текущее значение
         public void SetValue(int value)
         {
-            this.value = value;
+            itt.step = value;
         }
 
         // Получить текущее значение цели
@@ -61,31 +71,45 @@ namespace WF_Udvoitel
         // Метод увеличения на единицу
         public void Increment()
         {
-            this.value++;
-            this.steps++;
+            stack.Push(itt);
+            itt.value++;
+            itt.step++;
+            if (Update != null) Update.Invoke();
+            if ((Status != null) && (itt.value >= target || itt.step >= Finish)) Status.Invoke();
         }
 
         // Метод удвоения
         public void Double()
         {
-            this.value *= 2;
-            this.steps++;
+            stack.Push(itt);
+            itt.value *= 2;
+            itt.step++;
+            if (Update != null) Update.Invoke();
+            if ((Status != null) && (itt.value >= target || itt.step >= Finish)) Status.Invoke();
         }
 
         // Сброс текущего значения
         public void Reset()
         {
-            SetValue(1);
-            steps = 0;
+            itt.value = 1;
+            itt.step = 0;
+            stack.Clear();
+            if (Update != null) Update.Invoke();
+        }
+
+        public void Undo()
+        {
+            if (stack.Count != 0) itt = stack.Pop();
+            Update?.Invoke();
         }
 
         // Старт игры
         public void Start()
         {
-            Random rnd = new Random();
-            steps = 0;
-            value = 1;
-            target = rnd.Next(5, 100);
+            int needstep;
+            target = rnd.Next(10, 101);
+            if (Update != null) Update.Invoke();
+            Finish = NeededSteps();
         }
     }
 }
