@@ -1,0 +1,11 @@
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\bin\Debug\WF_Udvoitel.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\bin\Debug\WF_Udvoitel.exe
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\bin\Debug\WF_Udvoitel.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.Form1.resources
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.exe
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_7\WF_Udvoitel\obj\Debug\WF_Udvoitel.Form2.resources
