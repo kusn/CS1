@@ -76,8 +76,7 @@ namespace WF_Udvoitel
             btnCommand2.Enabled = true;
             btnReset.Enabled = true;
 
-            target = doubler.GetTarget();
-            //doubler.SetValue(1);            
+            target = doubler.GetTarget();                        
             Update();
             MessageBox.Show("Необходимо получить: " + target.ToString());
 
