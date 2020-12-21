@@ -1,0 +1,7 @@
+C:\Users\Serg\source\repos\Home_work_8\Reflection\bin\Debug\Reflection.exe.config
+C:\Users\Serg\source\repos\Home_work_8\Reflection\bin\Debug\Reflection.exe
+C:\Users\Serg\source\repos\Home_work_8\Reflection\bin\Debug\Reflection.pdb
+C:\Users\Serg\source\repos\Home_work_8\Reflection\obj\Debug\Reflection.csprojAssemblyReference.cache
+C:\Users\Serg\source\repos\Home_work_8\Reflection\obj\Debug\Reflection.csproj.CoreCompileInputs.cache
+C:\Users\Serg\source\repos\Home_work_8\Reflection\obj\Debug\Reflection.exe
+C:\Users\Serg\source\repos\Home_work_8\Reflection\obj\Debug\Reflection.pdb
