@@ -1,0 +1,10 @@
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\bin\Debug\BelieveOrNotBelieve.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\bin\Debug\BelieveOrNotBelieve.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\bin\Debug\BelieveOrNotBelieve.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.Form1.resources

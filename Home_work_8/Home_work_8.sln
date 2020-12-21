@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Reflection", "Reflection\1Reflection.csproj", "{99868716-F926-457C-9721-9DEE107C9AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxTBox_NumericUpDown_Value", "TxTBox_NumericUpDown_Value\TxTBox_NumericUpDown_Value.csproj", "{DF2F6999-4305-4490-BBBB-441252E2AE17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2TxTBox_NumericUpDown_Value", "TxTBox_NumericUpDown_Value\2TxTBox_NumericUpDown_Value.csproj", "{DF2F6999-4305-4490-BBBB-441252E2AE17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelieveOrNotBelieve", "BelieveOrNotBelieve\BelieveOrNotBelieve.csproj", "{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
