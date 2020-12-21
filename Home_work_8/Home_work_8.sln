@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Reflection", "Reflection\1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2TxTBox_NumericUpDown_Value", "TxTBox_NumericUpDown_Value\2TxTBox_NumericUpDown_Value.csproj", "{DF2F6999-4305-4490-BBBB-441252E2AE17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelieveOrNotBelieve", "BelieveOrNotBelieve\BelieveOrNotBelieve.csproj", "{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3BelieveOrNotBelieve", "BelieveOrNotBelieve\3BelieveOrNotBelieve.csproj", "{C1DF5A28-8148-4492-A282-BE1A7FAB32F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

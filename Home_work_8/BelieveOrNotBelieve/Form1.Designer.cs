@@ -43,6 +43,7 @@ namespace BelieveOrNotBelieve
             this.cboxTrue = new System.Windows.Forms.CheckBox();
             this.tboxQuestion = new System.Windows.Forms.TextBox();
             this.miSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +51,8 @@ namespace BelieveOrNotBelieve
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -171,6 +173,13 @@ namespace BelieveOrNotBelieve
             this.miSaveAs.Text = "Save As";
             this.miSaveAs.Click += new System.EventHandler(this.miSaveAs_Click);
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.aboutToolStripMenuItem.Text = "О программе";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,7 +192,9 @@ namespace BelieveOrNotBelieve
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Верю - Не верю";
             this.menuStrip1.ResumeLayout(false);
@@ -210,6 +221,7 @@ namespace BelieveOrNotBelieve
         private System.Windows.Forms.CheckBox cboxTrue;
         private System.Windows.Forms.TextBox tboxQuestion;
         private System.Windows.Forms.ToolStripMenuItem miSaveAs;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 

@@ -144,5 +144,11 @@ namespace BelieveOrNotBelieve
             }
             else MessageBox.Show("База данных не создана");
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_About form_About = new Form_About();
+            form_About.ShowDialog();
+        }
     }
 }

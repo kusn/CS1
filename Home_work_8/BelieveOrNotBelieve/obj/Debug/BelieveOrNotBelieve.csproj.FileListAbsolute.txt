@@ -8,3 +8,4 @@ D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOr
 D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.pdb
 D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.csprojAssemblyReference.cache
 D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.Form1.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\BelieveOrNotBelieve\obj\Debug\BelieveOrNotBelieve.Form_About.resources
