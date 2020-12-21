@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{99868716-F926-457C-9721-9DEE107C9AD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Reflection", "Reflection\1Reflection.csproj", "{99868716-F926-457C-9721-9DEE107C9AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxTBox_NumericUpDown_Value", "TxTBox_NumericUpDown_Value\TxTBox_NumericUpDown_Value.csproj", "{DF2F6999-4305-4490-BBBB-441252E2AE17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{99868716-F926-457C-9721-9DEE107C9AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99868716-F926-457C-9721-9DEE107C9AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99868716-F926-457C-9721-9DEE107C9AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2F6999-4305-4490-BBBB-441252E2AE17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
