@@ -42,6 +42,7 @@ namespace BelieveOrNotBelieve
             this.nudNumber = new System.Windows.Forms.NumericUpDown();
             this.cboxTrue = new System.Windows.Forms.CheckBox();
             this.tboxQuestion = new System.Windows.Forms.TextBox();
+            this.miSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
@@ -62,6 +63,7 @@ namespace BelieveOrNotBelieve
             this.miNew,
             this.miOpen,
             this.miSave,
+            this.miSaveAs,
             this.toolStripMenuItem1,
             this.miExit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -103,6 +105,7 @@ namespace BelieveOrNotBelieve
             // 
             // btnAdd
             // 
+            this.btnAdd.Enabled = false;
             this.btnAdd.Location = new System.Drawing.Point(13, 415);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
@@ -113,6 +116,7 @@ namespace BelieveOrNotBelieve
             // 
             // btnDelete
             // 
+            this.btnDelete.Enabled = false;
             this.btnDelete.Location = new System.Drawing.Point(95, 414);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
@@ -123,6 +127,7 @@ namespace BelieveOrNotBelieve
             // 
             // btnSaveQuest
             // 
+            this.btnSaveQuest.Enabled = false;
             this.btnSaveQuest.Location = new System.Drawing.Point(177, 413);
             this.btnSaveQuest.Name = "btnSaveQuest";
             this.btnSaveQuest.Size = new System.Drawing.Size(75, 23);
@@ -133,6 +138,7 @@ namespace BelieveOrNotBelieve
             // 
             // nudNumber
             // 
+            this.nudNumber.Enabled = false;
             this.nudNumber.Location = new System.Drawing.Point(314, 415);
             this.nudNumber.Name = "nudNumber";
             this.nudNumber.Size = new System.Drawing.Size(120, 20);
@@ -142,6 +148,7 @@ namespace BelieveOrNotBelieve
             // cboxTrue
             // 
             this.cboxTrue.AutoSize = true;
+            this.cboxTrue.Enabled = false;
             this.cboxTrue.Location = new System.Drawing.Point(440, 415);
             this.cboxTrue.Name = "cboxTrue";
             this.cboxTrue.Size = new System.Drawing.Size(64, 17);
@@ -156,6 +163,13 @@ namespace BelieveOrNotBelieve
             this.tboxQuestion.Name = "tboxQuestion";
             this.tboxQuestion.Size = new System.Drawing.Size(775, 379);
             this.tboxQuestion.TabIndex = 6;
+            // 
+            // miSaveAs
+            // 
+            this.miSaveAs.Name = "miSaveAs";
+            this.miSaveAs.Size = new System.Drawing.Size(180, 22);
+            this.miSaveAs.Text = "Save As";
+            this.miSaveAs.Click += new System.EventHandler(this.miSaveAs_Click);
             // 
             // Form1
             // 
@@ -195,6 +209,7 @@ namespace BelieveOrNotBelieve
         private System.Windows.Forms.NumericUpDown nudNumber;
         private System.Windows.Forms.CheckBox cboxTrue;
         private System.Windows.Forms.TextBox tboxQuestion;
+        private System.Windows.Forms.ToolStripMenuItem miSaveAs;
     }
 }
 

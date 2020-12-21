@@ -11,6 +11,8 @@ namespace BelieveOrNotBelieve
     // Класс для хранения списка вопросов. А также для сериализации в XML и десериализации из XML
     class TrueFalse
     {
+        public event System.Action Create;
+
         string fileName;
         List<Question> list;
         public string FileName
@@ -21,6 +23,7 @@ namespace BelieveOrNotBelieve
         {
             this.fileName = fileName;
             list = new List<Question>();
+            if (Create != null) Create.Invoke();
         }
         public void Add(string text, bool trueFalse)
         {
@@ -42,6 +45,15 @@ namespace BelieveOrNotBelieve
             xmlFormat.Serialize(fStream, list);
             fStream.Close();
         }
+
+        public void SaveAs(string fl)
+        {
+            XmlSerializer xmlFormat = new XmlSerializer(typeof(List<Question>));
+            Stream fStream = new FileStream(fl, FileMode.Create, FileAccess.Write);
+            xmlFormat.Serialize(fStream, list);
+            fStream.Close();
+        }
+
         public void Load()
         {
             XmlSerializer xmlFormat = new XmlSerializer(typeof(List<Question>));

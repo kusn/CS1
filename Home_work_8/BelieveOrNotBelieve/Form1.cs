@@ -30,6 +30,15 @@ namespace BelieveOrNotBelieve
             InitializeComponent();
         }
 
+        void Update()
+        {
+            btnAdd.Enabled = true;
+            btnDelete.Enabled = true;
+            btnSaveQuest.Enabled = true;
+            nudNumber.Enabled = true;
+            cboxTrue.Enabled = true;
+        }
+
         private void miExit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -41,6 +50,8 @@ namespace BelieveOrNotBelieve
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 database = new TrueFalse(sfd.FileName);
+                database.Create += new Action(Update);
+                Update();
                 database.Add("123", true);
                 database.Save();
                 nudNumber.Minimum = 1;
@@ -104,6 +115,8 @@ namespace BelieveOrNotBelieve
             {
                 database = new TrueFalse(ofd.FileName);
                 database.Load();
+                database.Create += new Action(Update);
+                Update();
                 nudNumber.Minimum = 1;
                 nudNumber.Maximum = database.Count;
                 nudNumber.Value = 1;
@@ -113,6 +126,22 @@ namespace BelieveOrNotBelieve
         private void miSave_Click(object sender, EventArgs e)
         {
             if (database != null) database.Save();
+            else MessageBox.Show("База данных не создана");
+        }
+
+        private void miSaveAs_Click(object sender, EventArgs e)
+        {
+            if (database != null)
+            { string file;
+                SaveFileDialog dialog = new SaveFileDialog();
+                dialog.CreatePrompt = true;
+                dialog.DefaultExt = "xml";
+                dialog.AddExtension = true;
+                dialog.Filter = "Файлы (*.xml)|*.xml";
+                dialog.ShowDialog();
+                file = dialog.FileName;
+                database.SaveAs(file);
+            }
             else MessageBox.Show("База данных не создана");
         }
     }

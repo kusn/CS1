@@ -8,7 +8,7 @@ namespace BelieveOrNotBelieve
 {
     // Класс для вопроса
     [Serializable]
-    class Question
+    public class Question
     {
         public string text;       // Текст вопроса
         public bool trueFalse;// Правда или нет
