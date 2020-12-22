@@ -32,17 +32,36 @@ namespace Birthdays
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                database = new DateStore(ofd.FileName);
+                database.Load();                
+            }
 
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if (database != null) database.Save();
+            else MessageBox.Show("База данных не создана");
         }
 
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if(database != null)
+            {
+                string file;
+                SaveFileDialog dialog = new SaveFileDialog();
+                dialog.CreatePrompt = true;
+                dialog.DefaultExt = "xml";
+                dialog.AddExtension = true;
+                dialog.Filter = "Файлы (*.xml)|*.xml";
+                dialog.ShowDialog();
+                file = dialog.FileName;
+                database.SaveAs(file);
+            }
+            else MessageBox.Show("База данных не создана");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -63,12 +82,12 @@ namespace Birthdays
         private void btnDel_Click(object sender, EventArgs e)
         {
             if (database == null) return;
-            database.Remove()
+            database.Remove(database.Search(monthCalendar1.SelectionRange.Start));
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-
+            database.Add(textBox1.Text, monthCalendar1.SelectionRange.Start);
         }
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
