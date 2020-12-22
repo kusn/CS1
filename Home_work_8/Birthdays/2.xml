@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfBirthday xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Birthday>
+    <text>Дата создания</text>
+    <date>2020-12-22T00:00:00</date>
+  </Birthday>
+  <Birthday>
+    <text>2</text>
+    <date>1984-05-19T00:00:00</date>
+  </Birthday>
+  <Birthday>
+    <text>Мой День Рождения!</text>
+    <date>1984-05-19T00:00:00</date>
+  </Birthday>
+</ArrayOfBirthday>

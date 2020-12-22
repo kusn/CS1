@@ -20,7 +20,7 @@ namespace Birthdays
 
         public DateStore(string filename)
         {
-            this.fileName = fileName;
+            this.fileName = filename;
             list = new List<Birthday>();
         }
 
@@ -76,7 +76,7 @@ namespace Birthdays
                 }
                 i++;
             }
-            return i;
+            return n;
         }
 
         public int Count

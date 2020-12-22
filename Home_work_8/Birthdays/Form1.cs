@@ -22,6 +22,10 @@ namespace Birthdays
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SaveFileDialog sfd = new SaveFileDialog();
+            sfd.CreatePrompt = true;
+            sfd.DefaultExt = "xml";
+            sfd.AddExtension = true;
+            sfd.Filter = "Файлы (*.xml)|*.xml";
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 database = new DateStore(sfd.FileName);
@@ -92,7 +96,16 @@ namespace Birthdays
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
         {
-            textBox1.Text = database[database.Search(monthCalendar1.SelectionRange.Start)].text;
+            int i = database.Search(monthCalendar1.SelectionRange.Start);
+            if (i == 0)
+            {
+                textBox1.Text = "";
+                MessageBox.Show("На данную дату ничего не назначено.");
+            }
+            else
+            {
+                textBox1.Text = database[i].text;
+            }
         }
     }
 }

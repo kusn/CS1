@@ -8,3 +8,13 @@ D:\Учеба\CS1\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.CoreComp
 D:\Учеба\CS1\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.exe
 D:\Учеба\CS1\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.pdb
 D:\Учеба\CS1\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.Form1.resources
+D:\Projects\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.exe.config
+D:\Projects\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.exe
+D:\Projects\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.pdb
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csprojAssemblyReference.cache
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.Form1.resources
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.Properties.Resources.resources
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.GenerateResource.cache
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.CoreCompileInputs.cache
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.exe
+D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.pdb
