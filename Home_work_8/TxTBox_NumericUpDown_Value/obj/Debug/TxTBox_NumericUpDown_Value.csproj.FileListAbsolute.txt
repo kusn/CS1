@@ -1,0 +1,10 @@
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\bin\Debug\TxTBox_NumericUpDown_Value.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\bin\Debug\TxTBox_NumericUpDown_Value.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\bin\Debug\TxTBox_NumericUpDown_Value.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.Form1.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\TxTBox_NumericUpDown_Value\obj\Debug\TxTBox_NumericUpDown_Value.pdb
