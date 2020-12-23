@@ -18,3 +18,13 @@ D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.GenerateResour
 D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.CoreCompileInputs.cache
 D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.exe
 D:\Projects\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\bin\Debug\Birthdays.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.Form1.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\4Birthdays.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\Birthdays\obj\Debug\Birthdays.pdb

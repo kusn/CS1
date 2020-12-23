@@ -1,0 +1,10 @@
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\bin\Debug\CsvToXml.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\bin\Debug\CsvToXml.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\bin\Debug\CsvToXml.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.Form1.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.Properties.Resources.resources
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.csproj.GenerateResource.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\CsvToXml\obj\Debug\CsvToXml.pdb

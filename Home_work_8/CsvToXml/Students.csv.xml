@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <lastName>Васильев</lastName>
+    <firstName>Василий</firstName>
+    <university>ННГУ</university>
+    <faculty>Радиофизический</faculty>
+    <course>1</course>
+    <department>Фундаментальной радиофизики</department>
+    <group>411</group>
+    <city>Нижний Новгород</city>
+    <age>18</age>
+  </Student>
+  <Student>
+    <lastName>Андреев</lastName>
+    <firstName>Андрей</firstName>
+    <university>ННГУ</university>
+    <faculty>Физический</faculty>
+    <course>2</course>
+    <department>Твердого тела</department>
+    <group>511</group>
+    <city>Нижний Новгород</city>
+    <age>19</age>
+  </Student>
+  <Student>
+    <lastName>Алексеев</lastName>
+    <firstName>Алексей</firstName>
+    <university>ННГУ</university>
+    <faculty>Биологический</faculty>
+    <course>4</course>
+    <department>Биофизики</department>
+    <group>211</group>
+    <city>Нижний Новгород</city>
+    <age>20</age>
+  </Student>
+  <Student>
+    <lastName>Александров</lastName>
+    <firstName>Александр</firstName>
+    <university>ННГУ</university>
+    <faculty>Радиофизический</faculty>
+    <course>5</course>
+    <department>Фундаментальной радиофизики</department>
+    <group>412</group>
+    <city>Нижний Новгород</city>
+    <age>21</age>
+  </Student>
+  <Student>
+    <lastName>Сергеев</lastName>
+    <firstName>Сергей</firstName>
+    <university>ННГУ</university>
+    <faculty>Физический</faculty>
+    <course>6</course>
+    <department>Твердого тела</department>
+    <group>512</group>
+    <city>Нижний Новгород</city>
+    <age>22</age>
+  </Student>
+  <Student>
+    <lastName>Миронов</lastName>
+    <firstName>Мирон</firstName>
+    <university>ННГУ</university>
+    <faculty>Биологический</faculty>
+    <course>1</course>
+    <department>Биофизики</department>
+    <group>212</group>
+    <city>Нижний Новгород</city>
+    <age>18</age>
+  </Student>
+  <Student>
+    <lastName>Петров</lastName>
+    <firstName>Пётр</firstName>
+    <university>ННГУ</university>
+    <faculty>Радиофизический</faculty>
+    <course>2</course>
+    <department>Фундаментальной радиофизики</department>
+    <group>413</group>
+    <city>Нижний Новгород</city>
+    <age>19</age>
+  </Student>
+  <Student>
+    <lastName>Дмитриев</lastName>
+    <firstName>Дмитрий</firstName>
+    <university>ННГУ</university>
+    <faculty>Физический</faculty>
+    <course>3</course>
+    <department>Твердого тела</department>
+    <group>513</group>
+    <city>Нижний Новгород</city>
+    <age>20</age>
+  </Student>
+  <Student>
+    <lastName>Фролов</lastName>
+    <firstName>Фрол</firstName>
+    <university>ННГУ</university>
+    <faculty>Биологический</faculty>
+    <course>4</course>
+    <department>Биофизики</department>
+    <group>213</group>
+    <city>Нижний Новгород</city>
+    <age>21</age>
+  </Student>
+  <Student>
+    <lastName>Андрианов</lastName>
+    <firstName>Андриан</firstName>
+    <university>ННГУ</university>
+    <faculty>Радиофизический</faculty>
+    <course>5</course>
+    <department>Фундаментальной радиофизики</department>
+    <group>414</group>
+    <city>Нижний Новгород</city>
+    <age>22</age>
+  </Student>
+  <Student>
+    <lastName>Яковлев</lastName>
+    <firstName>Яков</firstName>
+    <university>ННГУ</university>
+    <faculty>Физический</faculty>
+    <course>6</course>
+    <department>Твердого тела</department>
+    <group>514</group>
+    <city>Нижний Новгород</city>
+    <age>18</age>
+  </Student>
+  <Student>
+    <lastName>Порфирьев</lastName>
+    <firstName>Порфирий</firstName>
+    <university>ННГУ</university>
+    <faculty>Биологический</faculty>
+    <course>1</course>
+    <department>Биофизики</department>
+    <group>214</group>
+    <city>Нижний Новгород</city>
+    <age>19</age>
+  </Student>
+</ArrayOfStudent>

@@ -1,0 +1,7 @@
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\bin\Debug\Reflection.exe.config
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\bin\Debug\Reflection.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\bin\Debug\Reflection.pdb
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\obj\Debug\1Reflection.csprojAssemblyReference.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\obj\Debug\1Reflection.csproj.CoreCompileInputs.cache
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\obj\Debug\Reflection.exe
+D:\Kudryashov\Учеба\CS1\Home_work_8\Reflection\obj\Debug\Reflection.pdb

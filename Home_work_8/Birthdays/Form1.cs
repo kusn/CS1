@@ -40,7 +40,11 @@ namespace Birthdays
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 database = new DateStore(ofd.FileName);
-                database.Load();                
+                database.Load();
+                for (int i = 0; i < database.Count; i++)
+                {
+                    listBox1.Items.Add(database[i].date.ToString() + " " + database[i].text);
+                }
             }
 
         }

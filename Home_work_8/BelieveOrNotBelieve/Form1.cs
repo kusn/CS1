@@ -46,10 +46,13 @@ namespace BelieveOrNotBelieve
 
         private void miNew_Click(object sender, EventArgs e)
         {
-            SaveFileDialog sfd = new SaveFileDialog();
-            if (sfd.ShowDialog() == DialogResult.OK)
+            OpenFileDialog ofd = new OpenFileDialog();            
+            ofd.DefaultExt = "xml";
+            ofd.AddExtension = true;
+            ofd.Filter = "Файлы (*.xml)|*.xml";
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
-                database = new TrueFalse(sfd.FileName);
+                database = new TrueFalse(ofd.FileName);
                 database.Create += new Action(Update);
                 Update();
                 database.Add("123", true);
@@ -57,7 +60,8 @@ namespace BelieveOrNotBelieve
                 nudNumber.Minimum = 1;
                 nudNumber.Maximum = 1;
                 nudNumber.Value = 1;
-            };
+            }
+            
         }
 
         private void nudNumber_ValueChanged(object sender, EventArgs e)

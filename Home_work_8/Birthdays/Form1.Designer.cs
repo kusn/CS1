@@ -41,6 +41,7 @@
             this.btnDel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,10 +110,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 28);
+            this.textBox1.Location = new System.Drawing.Point(355, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(560, 344);
+            this.textBox1.Size = new System.Drawing.Size(218, 342);
             this.textBox1.TabIndex = 1;
             // 
             // btnAdd
@@ -153,11 +154,20 @@
             this.monthCalendar1.TabIndex = 6;
             this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(13, 28);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(336, 342);
+            this.listBox1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(760, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnDel);
@@ -189,6 +199,7 @@
         private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
